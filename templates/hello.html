@@ -1,0 +1,5 @@
+<form method=post><input name=message></form>
+
+{% for message in messages %}
+    <p>{{ message["message"] }}</p>
+{% endfor %}
